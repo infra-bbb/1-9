@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.main {
+  width: 960px;
+  margin: 50px 0;
+}
+
+.content {
+  width: 300px;
+  margin-right: 30px;
+  padding: 10px;
+  float: left;
+  border: 1px solid #eee;
+}
+
+.picture {
+  width: 280px;
+}
+.content:last-child{
+  margin-right: 0;
+}
+
+.number{
+  position: absolute;
+  padding: 3px;
+  top: 0;
+  left: 0;
+  background-color: orange;
+  color: #fff;
+}
